@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(elephant.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+    text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+font-size: 30px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+}
+.navbar ul li::after {
+content: '';
+height: 3px;
+width: 0%;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+.navbar ul li:hover::after {
+width: 100%;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 34%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    border-bottom: 25px;
+
+}
+.content h1 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 10px;
+}
+   
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 40px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.paragraph {
+    line-height: 25px;
+    margin-top: 12px;
+}
+button:hover span {
+width: 100%;
+}
+button:hover {
+    border: none;
+}
+.btn1 {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.btn2 {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.photo-about {
+    margin-top: 95px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 25px;
+}
+.about-me-section {
+    display: flex;
+    align-items: center;
+    background-color: #cdb2b2;
+    margin: 0; 
+    padding: 0;
+}
+.text-quote {
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.text-image {
+    rotate: 270deg;
+    font-size: 35px;
+}
+.text-name {
+    font-weight: bold;
+}
+.text-about {
+    margin-left: 35px;
+}
+.exhibition-section {
+    background-color: #cdb2b2;
+    margin: 0; 
+    padding: 0;
+}
+.exhibition-photo-about {
+    margin-top: 55px;
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 25px;
+}
+.principal-quote {
+    margin-bottom: 30px;
+    margin-left: 390px;
+    align-content: center;
+    padding-top: 75px;
+}
+.war-photo {
+    align-items: center;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+.soldier-photo {
+    margin-left: 25px;
+    margin-top: 55px;
+    float: right;
+    margin-right: 30px;
+}
+.title-exhibition {
+    margin-bottom: 30px;
+    margin-top: 35px;
+    margin-left: 480px;
+    align-content: center;
+    font-size: 25px;
+    font-weight: 100;
+}
+.date-exhibition {
+    margin-bottom: 40px;
+    margin-top: -10px;
+    margin-left: 540px;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+.information-exhibition {
+    margin-left: 150px;
+    font-weight: lighter;
+}
+.lions-image {
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    float: left;
+}
+.exhibition-text {
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    margin-top: 150px;
+    font-size: 30px;
+}
+}
+.name-section {
+    margin-left: 25px;
+    font-size: 80px;
+    color: #04522b;
+    margin-top: 70px;
+}
+.family-name {
+    margin-left: 25px;
+    font-size: 75px;
+    color: #04522b;
+}
+.exhibition-name {
+    margin-left: 25px;
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+.exhibition-event {
+    background-color: #cdb2b2;
+    margin-top: 25px;
+}
+.city-section {
+    margin-top: 70px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+.quote-event {
+    margin-top: 30px;
+    margin-left: 290px;
+    font-size: 20px;
+    color: #04522b;
+}
+.quote-name {
+    margin-left: 355px;
+    font-size: 20px;
+    color: #04522b;
+}
+.btn3 {
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 620px;
+}
+
+
+.contact-title {
+    text-align: center;
+    padding-top: 65px;
+}
+.border-section {
+    border-color: #04522b;
+}
+.contact-section {
+    background-color: #cdb2b2;
+}
+.contact-info {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.color {
+    background-color: #cdb2b2;
+}
+button2 {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 40px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+button2:hover span {
+    width: 100%;
+    }
+#my-button:hover {
+    background-color: #04522b;
+    color: #fff;
+}
+#my-button:hover span {
+    width: 100%;
+}
+.footer-image{
+    width: 50px;
+    margin: 0 0 0 20px;
+  }
+  #footer{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .contact-me {
+    margin-left: 30px;
+    color: grey;
+  }
+  .contacts-phone {
+    color: #4489FF;
+    margin-left: 40px;
+  }
+.contacts-email {
+    color: #4489FF;
+    margin-left: 40px;
+}
+.mail {
+    margin-bottom: 30px;
+}
+.contacts-item {
+    margin-top: 15px;
+}
+.phone {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    background-color: #cdb2b2;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #5ccb5f;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}
+.text-box {
+    color: #cdb2b2;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 10px;
+    }
+    
+    .navbar {
+        display: block;
+    }
+
+    .navbar ul {
+        display: block;
+    }
+    .btn1, .btn2 {
+        display: block;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .photojournalist-heading {
+        text-align: center;
+    }
+   .text-quote {
+    font-size: 10px;
+   }
+}
+.exhibition-section, .exhibition-event {
+    background-color: #cdb2b2;
+}
+.all-section {
+    background-color: #cdb2b2;
+}
+.footer-bottom {
+    background-color: #cdb2b2;
+}
+.footer-bottom p {
+    color: grey;
+    font-size: 12px;
+    margin-left: 45px;
+}
+ .color-section {
+    background-color: #cdb2b2;
+ }
